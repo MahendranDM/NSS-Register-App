@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import NavBar from "./NavBar";
 
 const AddVolunteer = () => {
   const [input, changeInput] = useState({
@@ -47,7 +48,7 @@ const AddVolunteer = () => {
 
   return (
     <div>
-
+<NavBar/>
       <div className="container mt-4">
         <div className="row">
           <div className="col-12">
