@@ -10,7 +10,7 @@ const ViewVolunteer = () => {
     setLoading(true);
 
     axios
-      .get("https://example.com/api/view-volunteers")
+      .get("http://localhost:3000/api/view-volunteers")
       .then((response) => {
         changeData(response.data);
         setLoading(false);
