@@ -30,7 +30,7 @@ const AddVolunteer = () => {
     console.log(input);
 
     axios
-      .post("https://example.com/api/add-volunteer", input)
+      .post("http://localhost:3000/api/add-volunteer", input)
       .then((response) => {
         console.log(response.data);
         alert("Volunteer Added Successfully");
